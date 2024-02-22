@@ -1,0 +1,119 @@
+
+body{
+    background-color: #F9FAFB !important;
+}
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.search-input {
+    background-image: url('search-icon.png');
+    background-repeat: no-repeat;
+    background-position: 10px center; 
+    padding-left: 40px; 
+  }  
+
+
+
+.offcanvas {
+    transition: transform 0.4s ease !important; 
+    
+}
+
+.body {
+    transition: margin-left 0.4s ease; 
+    
+}
+
+.offcanvas-open {
+    transform: translateX(2); 
+    
+}
+.sidebar-buttons button:hover{
+    background-color: #5D5FEF !important; 
+    color: white;
+}
+.sidebar-upr button:hover{
+    color: white !important;
+}
+.dabangPro img{
+    width: 65px;
+    height: 65px;
+    
+}
+.dabangPro button{
+    color: #5D5FEF;
+    width: 55%;
+    border-radius: 10px;
+}
+.dabangPro button:hover{
+    color: white;
+    background-color: #5D5FEF;
+}
+.dabangPro{
+    background-image: url(../images/dabang\ pro.png);
+    background-size: cover;
+    height: 20rem;
+}
+
+nav{
+    background-color: white;
+}
+.s1{
+    min-height: 28vh;
+    
+}
+.s2{
+    height: 95%;
+}
+
+.s3{
+    min-height: 28vh;
+}
+
+.s4{
+    height: 96%;
+}
+
+.s5{
+    height: 97%;
+}
+
+.s6{
+    height: 97%;
+}
+
+.s7{
+    height: 97%;
+}
+.my-image{
+    width: 40px;
+    height: auto; 
+    transition: transform 0.3s ease; 
+    border-radius: 10px ;
+}
+
+
+@media (max-width: 768px) {
+    .my-image{
+        width: 300px; 
+    }
+    .my-name{
+        font-size: 30px;
+    }
+}
+.product-btn button{
+    color: black;
+    background-color: white;
+}
+.product-btn:hover{
+    color: white !important;
+    background-color: #5D5FEF !important;
+}
+.heading-color
+{
+    color: #05004E;
+}
+
+
